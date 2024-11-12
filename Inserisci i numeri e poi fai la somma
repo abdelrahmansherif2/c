@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+#include <stdbool.h>
+
+
+int main ()
+{
+
+int array[5];
+
+int somma=0;
+
+for(int i=0; i<5; i++){
+
+
+printf("Metti il numero del indice [%d] : ",i);
+ 
+ scanf("%d",&array[i]);
+
+ somma+=array[i];
+
+ 
+
+
+
+
+
+}
+
+printf("%d",somma );
+
+return 0;
+}
