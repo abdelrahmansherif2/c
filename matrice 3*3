@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+#include <stdbool.h>
+
+
+int main ()
+{
+                         
+                       //prima colonna ,seconda colonna ,terza riga 
+   int matrice [3][3]={{10,20,30}, //prima riga 
+                       {10,20,30}, //seconda riga 
+                       {10,20,30}};// terza riga 
+                       
+                       
+                       
+                       
+            
+                
+                
+        printf("{|%d|,|%d|,|%d|} \n",matrice[0][0],matrice[0][1],matrice[0][2]);
+        
+        printf("{|%d|,|%d|,|%d|} \n",matrice[1][0],matrice[1][1],matrice[1][2]);
+                
+        printf("{|%d|,|%d|,|%d|} \n",matrice[2][0],matrice[2][1],matrice[2][2]);
+                
+                
+                
+                
+            
+
+
+return 0;
+}
