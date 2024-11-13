@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+#include <stdbool.h>
+
+
+int main ()
+{
+    
+    int x=4;
+    
+    printf("Quanto vale x = %d \n",x);
+
+    printf("%p", &x);
+
+return 0;
+}
