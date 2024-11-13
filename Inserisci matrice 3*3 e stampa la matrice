@@ -1,0 +1,64 @@
+#include <stdio.h>
+
+#include <stdbool.h>
+
+
+int main ()
+{
+                         
+                       //prima colonna ,seconda colonna ,terza riga 
+   int matrice [3][3];
+                       
+                       
+                       
+                       
+        for(int riga=0;riga<3;riga++){
+            
+            for(int colonna=0;colonna<3;colonna++){
+                
+                
+                        //il primo numero in matrice      // numero di riga   // numero di colonna
+                
+                printf("inserisci [%d],[%d] = ",riga,colonna);
+                
+                scanf ("%d",&matrice[riga][colonna]);
+              
+
+
+                
+               
+                
+                
+            }
+            
+            printf("\n");
+            
+        }
+        
+                      
+                       
+        for(int riga=0;riga<3;riga++){
+            
+            for(int colonna=0;colonna<3;colonna++){
+                
+                
+                        //il primo numero in matrice      // numero di riga   // numero di colonna
+                
+                printf("|%d| ",matrice [riga][colonna]);
+                
+              
+
+
+                
+               
+                
+                
+            }
+            
+            printf("\n");
+            
+        }
+
+
+return 0;
+}
