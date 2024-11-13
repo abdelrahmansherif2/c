@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+#include <stdbool.h>
+
+
+int main ()
+{
+
+	int x=10;
+
+	int y=20;
+
+	int *q=&y; //p punta l'indirizzo di y
+	int *p=&x; //p punta l'indirizzo di x
+
+	x=y+1;         ///20+1 ----> il valore di x e' diventato 21
+
+	*p=*q+1;       //  20+1 quindi p e' diventato 21 
+
+
+	printf("stampa X %d \n",x); // stampa solo x per sapere il valore
+
+
+	printf("stampa y %d \n",y); // stampa solo y per sapere il suo valore 
+
+
+	printf("quale e' l'indirizzo del puntatore p che salva l'indirizzo di x  %p \n", p); // quale e' l'indirizzo del puntatore p che salva l'indirizzo di x
+
+
+	printf("quale e' l'indirizzo del puntatore p che salva l'indirizzo di y %p \n",q); // quale e' l'indirizzo del puntatore q che salva l'indirizzo di y
+
+	printf("quale e' il valore del indirizzo x %d \n", *p);// quale e' il valore del indirizzo x
+
+
+    printf("quale e' il valore del indirizzo y %d ", *q); // quale e' il valore del indirizzo y
+
+
+
+
+
+
+
+	return 0 ;
+}
