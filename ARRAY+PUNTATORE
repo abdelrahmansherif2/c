@@ -1,0 +1,47 @@
+
+#include <stdio.h>
+
+int main()
+{
+
+
+	int x[4]= {20,40,80,100};
+
+
+	/*printf("stampa l'indirizzo di x %p\n", x); // sempre x  punta il primo o salva ;l'indirizzodel primo valore 
+
+
+	printf("stampa l'indirizzo di [%d] %p\n",0, &x[0]); // quale l'indirizzodel primo valore di array 
+
+
+	printf("stampa l'indirizzo di [%d] %p\n",1, &x[1]); //  quale l'indirizzo del secondo  valore di array 
+
+
+	printf("stampa l'indirizzo di [%d] %p\n", 2,&x[2]); //quale l'indirizzo del terzo  valore di array 
+
+	printf("stampa l'indirizzo di [%d] %p\n ",3, &x[3]); //quale l'indirizzo del quarto valore di array 
+	*/
+
+
+
+
+
+
+	for(int i=0; i<4;i++) {  // SAPERE GLI INDIRIZZI DEL ARRAY UTILIZZANDO FOR SENZA PUNTATORE 
+
+
+
+
+		printf("stampa l'indirizzo di [%d] %p\n",i, &x[i]);
+
+
+
+	}
+
+
+
+
+
+
+	return 0;
+}
