@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+
+    void somma (int x,int y){ // una funzione che somma due valori
+        
+        int risultato;
+        
+        risultato=x+y;
+        
+        printf("La somma e' %d \n",risultato);
+        
+        
+        
+        
+        
+    }
+
+
+
+
+
+int main()
+{
+    somma(2,2);  //chiama la funzione somma 
+    
+    somma(6,4); //chiama la funzione somma 
+    
+    somma(2,3); //chiama la funzione somma 
+    
+
+    return 0;
+}
