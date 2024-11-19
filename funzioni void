@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+//funzione void -- nome della funzione (in questo possiamo mettere i parametri)
+void salute ()    //Dichiarazione della funzione 
+{
+    
+    
+    printf("Ciao Sono Abdo"); 
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+int main()
+{
+            salute(); // ci sono diversi termini 1)Stiamo Chiamando , Stiamo Lanciando o Stiamo invocando 
+
+    return 0;
+}
